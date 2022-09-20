@@ -200,7 +200,11 @@ Cheat Sheet for Android Interviews
 
 
 * <b>What is ABI Management?</b></br>
-  * Different Android handsets use different CPUs, which in turn support different instruction sets. Each combination of CPU and instruction sets has its own Application Binary Interface, or ABI. The ABI defines, with great precision, how an  application's machine code is supposed to interact with the system at runtime. You must specify an ABI for each CPU  architecture you want your app to work with. You can checkout the full specifcations [here](https://developer.android.com/ndk/guides/abis)</br>
+  * Different Android handsets use different CPUs, which in turn support different instruction sets. Each combination of CPU and instruction sets has its own Application Binary Interface, or ABI. The ABI defines, with great precision, how an  application's machine code is supposed to interact with the system at runtime. You must specify an ABI for each CPU  architecture you want your app to work with. You can checkout the full specifcations 
+  
+  armeabi-v7a, arm64-v8a, x86, x86_64
+  
+  [here](https://developer.android.com/ndk/guides/abis)</br>
   
   
 
